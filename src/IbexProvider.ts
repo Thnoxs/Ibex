@@ -67,7 +67,7 @@ export class IbexProvider implements vscode.WebviewViewProvider {
 
   private _getHtmlForWebview(webview: vscode.Webview) {
     const iconUri = webview.asWebviewUri(
-      vscode.Uri.joinPath(this._extensionUri, "icon.png"),
+      vscode.Uri.joinPath(this._extensionUri, "assets/icon.png"),
     );
 
     return `<!DOCTYPE html>
