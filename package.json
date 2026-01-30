@@ -5,6 +5,10 @@
   "description": "High-performance sidebar browser for local development.",
   "version": "1.0.2",
   "main": "./dist/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thnoxs/Ibex.git"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },

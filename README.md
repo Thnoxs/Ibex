@@ -75,28 +75,17 @@
 
 ---
 
-### 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!<br>
-Feel free to check [issues page](https://github.com/Thnoxs/Ibex/issues).
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
----
-
-### 👤 Author
-
-**Thnoxs**
-
-- Website: [thnoxs.in](https://thnoxs.in)
-- GitHub: [@Thnoxs](https://github.com/Thnoxs)
-- Instagram: [@thnoxs](https://instagram.com/thnoxs)
-
----
+<p align="center">
+  <a href="https://thnoxs.in" target="_blank">
+    <img src="https://img.shields.io/badge/Website-1C1E26?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=1C1E26&color=0475fe" alt="Website" />
+  </a>
+  <a href="https://github.com/Thnoxs" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-1C1E26?style=for-the-badge&logo=github&logoColor=white&labelColor=1C1E26&color=333" alt="GitHub" />
+  </a>
+  <a href="https://instagram.com/thnoxs" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-1C1E26?style=for-the-badge&logo=instagram&logoColor=white&labelColor=1C1E26&color=E4405F" alt="Instagram" />
+  </a>
+</p>
 
 <div align="center">
   <b>Show your support</b><br>
