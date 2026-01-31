@@ -12,7 +12,7 @@
   <a href="https://github.com/sponsors/thnoxs" target="_blank" rel="noopener noreferrer">
     <img alt="sponsor url" src="https://img.shields.io/badge/GitHub%20-Sponsor-1C1E26?style=for-the-badge&labelColor=1C1E26&color=db61a2"/>
   </a> 
-  <a href="https://bit.ly/paypal-udeler" target="_blank" rel="noopener noreferrer">
+  <a href="https://paypal.me/thnoxs" target="_blank" rel="noopener noreferrer">
     <img alt="paypal url" src="https://img.shields.io/badge/donate%20on-paypal-1C1E26?style=for-the-badge&labelColor=1C1E26&color=0475fe"/>
   </a>
   <a href="https://ko-fi.com/thnoxs" target="_blank" rel="noopener noreferrer">
@@ -29,7 +29,7 @@
   Auto-detects your React/Vite or HTML server, provides real-time previews, and keeps your workflow seamless without leaving the editor. <br>
   
   <br>
-  <img src="https://raw.githubusercontent.com/Thnoxs/Ibex/main/assets/demo.gif" width="100%" alt="Ibex Demo" />
+  <img src="https://raw.githubusercontent.com/Thnoxs/Ibex/main/assets/demo-optimized.gif" width="100%" alt="Ibex Demo" />
   
 </div>
 

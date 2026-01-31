@@ -1,12 +1,19 @@
 .vscode/**
+.vscode-test/**
 src/**
 node_modules/**
 out/**
 .gitignore
 .gitattributes
+.git/**
+.github/**
 tsconfig.json
 webpack.config.js
 eslint.config.mjs
 vsc-extension-quickstart.md
 *.vsix
+**/*.map
+
+# Yahan change karo 👇
+assets/demo-optimized.gif
 assets/demo.gif

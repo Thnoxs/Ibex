@@ -70,10 +70,16 @@ export class IbexProvider implements vscode.WebviewViewProvider {
       vscode.Uri.joinPath(this._extensionUri, "assets/icon.png"),
     );
 
+    // SECURITY FIX: Generate a random nonce for scripts
+    const nonce = getNonce();
+
     return `<!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
+            
+            <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src ${webview.cspSource} 'unsafe-inline'; script-src 'nonce-${nonce}'; frame-src *; img-src ${webview.cspSource} https: data:;">
+
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <style>
                 /* Prevent White Flash: Set bg color immediately */
@@ -180,7 +186,7 @@ export class IbexProvider implements vscode.WebviewViewProvider {
                 <iframe id="mainFrame" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
             </div>
 
-            <script>
+            <script nonce="${nonce}">
                 const vscode = acquireVsCodeApi();
                 const input = document.getElementById('urlInput');
                 const frame = document.getElementById('mainFrame');
@@ -254,4 +260,15 @@ export class IbexProvider implements vscode.WebviewViewProvider {
         </body>
         </html>`;
   }
+}
+
+// SECURITY FIX: Helper function to generate a random nonce
+function getNonce() {
+  let text = "";
+  const possible =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  for (let i = 0; i < 32; i++) {
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+  }
+  return text;
 }
