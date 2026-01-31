@@ -1,7 +1,7 @@
 <span id="top"></span>
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/Thnoxs/Ibex/main/icon.png" width="128" />
+  <img src="https://raw.githubusercontent.com/Thnoxs/Ibex/main/assets/icon.png" width="128" />
   <br> Ibex | Local Preview Engine 
 </h1>
 

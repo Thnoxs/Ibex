@@ -1,6 +1,12 @@
-src/test/**
-out/test/**
-.vscode-test/**
+.vscode/**
+src/**
+node_modules/**
+out/**
+.gitignore
+.gitattributes
 tsconfig.json
 webpack.config.js
+eslint.config.mjs
 vsc-extension-quickstart.md
+*.vsix
+assets/demo.gif

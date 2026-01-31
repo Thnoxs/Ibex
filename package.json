@@ -1,9 +1,9 @@
 {
   "name": "ibex-preview-engine",
-  "displayName": "Ibex - Local Preview",
+  "displayName": "Ibex",
   "publisher": "Thnoxs",
   "description": "High-performance sidebar browser for local development with auto-server detection.",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "icon": "assets/icon.png",
   "main": "./dist/extension.js",
   "repository": {
